@@ -1,0 +1,1 @@
+Vehicle routes were generated using SUMO’s randomTrips tool and routed using duarouter. The simulation was configured via a SUMO configuration file specifying the network, routes, and simulation duration.
