@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="RVCE_Network.net.xml"/>
+        <route-files value="Routes.xml"/>
+    </input>
+
+    <output>
+        <human-readable-time value="true"/>
+        <vehroute-output value="vehRouteOutputMicro.xml"/>
+        <vehroute-output.sorted value="true"/>
+        <vehroute-output.cost value="true"/>
+        <vehroute-output.route-length value="true"/>
+    </output>
+
+    <time>
+        <begin value="0"/>
+        <end value="3600"/>
+        <step-length value="1"/>
+    </time>
+
+    <processing>
+        <threads value="1"/>
+        <ignore-route-errors value="true"/>
+        <time-to-teleport value="60"/>
+    </processing>
+
+    <routing>
+        <routing-algorithm value="dijkstra"/>
+    </routing>
+
+    <report>
+        <verbose value="true"/>
+        <log value="logMicro.xml"/>
+    </report>
+
+    <mesoscopic>
+        <mesosim value="false"/>
+    </mesoscopic>
+
+    <random_number>
+        <seed value="0"/>
+    </random_number>
+
+</configuration>

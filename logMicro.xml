@@ -1,0 +1,16 @@
+Loading net-file from 'RVCE_Network.net.xml' ... done (448ms).
+Loading route-files incrementally from 'Routes.xml'
+Loading done.
+Simulation version 1.25.0 started with time: 00:00:00.
+Warning: Vehicle '862' performs emergency braking on lane ':10079515443_5_0' with decel=9.00, wished=4.50, severity=1.00, time=00:29:37.
+Simulation ended at time: 01:00:00.
+Reason: The final simulation step has been reached.
+Performance:
+ Duration: 3.24s
+ Real time factor: 1111.11
+ UPS: 84188.580247
+Vehicles:
+ Inserted: 1799 (Loaded: 1800)
+ Running: 77
+ Waiting: 1
+ Emergency Braking: 1
